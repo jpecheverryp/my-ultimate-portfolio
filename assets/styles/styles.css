@@ -1,6 +1,9 @@
 img {
-  max-width: 10%;
+  max-width: 100%;
 }
 article {
   border: 1px red solid;
+}
+body {
+  padding-top: 60px;
 }
