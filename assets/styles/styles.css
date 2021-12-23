@@ -3,6 +3,7 @@ html {
   justify-content: center;
   background-color: rgb(245, 241, 248);
   color: #000;
+  font-family: 'Courier New', Courier, monospace;
 }
 body {
   max-width: 640px;
