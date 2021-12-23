@@ -1,9 +1,9 @@
-img {
-  max-width: 100%;
-}
-article {
-  border: 1px red solid;
+html {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 241, 248);
+  color: #000;
 }
 body {
-  padding-top: 60px;
+  max-width: 640px;
 }
