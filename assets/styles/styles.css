@@ -10,3 +10,43 @@ body {
 img {
   max-width: 100%;
 }
+
+/* Navbar */
+
+nav {
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin-left: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #777;
+}
+nav a:hover {
+  color: #000;
+}
+nav .current {
+  color: #000;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery img {
+  margin: 10px;
+  margin-top: 25px;
+  max-width: 40%;
+}
