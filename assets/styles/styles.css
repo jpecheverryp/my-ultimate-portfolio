@@ -29,11 +29,11 @@ nav ul {
 nav li {
   margin-left: 2rem;
 }
-nav a {
+a {
   text-decoration: none;
   color: #777;
 }
-nav a:hover {
+a:hover {
   color: #000;
 }
 nav .current {
@@ -50,4 +50,8 @@ nav .current {
   margin: 10px;
   margin-top: 25px;
   max-width: 40%;
+}
+.contact-pic {
+  border-radius: 50%;
+  max-width: 240px;
 }
