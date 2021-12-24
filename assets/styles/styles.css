@@ -25,6 +25,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 nav li {
   margin-left: 2rem;
@@ -54,4 +55,10 @@ nav .current {
 .contact-pic {
   border-radius: 50%;
   max-width: 240px;
+}
+
+@media only screen and (max-width: 570px) {
+  .brand {
+    display: none;
+  }
 }
